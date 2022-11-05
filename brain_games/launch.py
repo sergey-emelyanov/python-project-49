@@ -9,7 +9,8 @@ def launch(game):
 
 	for _ in range(3):
 		question, correct_answer = game.data_about_round()
-		answer = prompt.string(f"Question: {question}")
+		print(f"Question: {question}")
+		answer = prompt.string(f"Your answer:")
 
 		if answer == correct_answer:
 			print("Correct")
