@@ -15,12 +15,3 @@ def data_about_round():
 
 def is_even(number):
 	return number % 2 == 0
-
-
-
-
-
-
-
-
-

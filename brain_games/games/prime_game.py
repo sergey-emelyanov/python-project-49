@@ -14,8 +14,8 @@ def data_about_round():
 
 def is_prime(number):
 	flag = True
-	for i in range(2, int(number**0.5)+1):
+	for i in range(2, int(number ** 0.5) + 1):
 		if number % i == 0:
-			flag  = False
+			flag = False
 			break
 	return flag
