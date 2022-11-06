@@ -12,15 +12,7 @@ def data_about_round():
 
 
 def nod(number1, number2):
-	multipliers1 = []
-	for i in range(1, number1 + 1):
-		if number1 % i == 0:
-			multipliers1.append(i)
+	while number2 > 0:
+		number1, number2 = number2, number1 % number2
+	return number1
 
-	multipliers2 = []
-	for i in range(1, number2 + 1):
-		if number2 % i == 0:
-			multipliers2.append(i)
-
-	set_of_both_multipliers = set(multipliers1) & set(multipliers2)
-	return max(set_of_both_multipliers)
