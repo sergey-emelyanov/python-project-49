@@ -1,6 +1,6 @@
 import random
 
-description = 'Answer "yes" if the number is even, otherwise answer "no"'
+description = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def data_about_round():
