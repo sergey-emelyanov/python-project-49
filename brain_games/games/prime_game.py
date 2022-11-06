@@ -13,6 +13,8 @@ def data_about_round():
 
 
 def is_prime(number):
+	if number == 1:
+		return False
 	flag = True
 	for i in range(2, int(number ** 0.5) + 1):
 		if number % i == 0:
