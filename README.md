@@ -14,8 +14,24 @@
 ```
 git clone https://github.com/sergey-emelyanov/python-project-49
 cd python-project-49
+```
++ If you have 'make' utility
+```python
+make install
+make build
+make publish
 make package-install
 ```
++ If you don`t, you can use poetry instead of 'make'
+```python
+poetry install
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+```
+
+Use python instead of python3, if you're using Windows
+
 
 ## Usage
 

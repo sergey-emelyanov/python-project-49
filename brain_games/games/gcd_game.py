@@ -15,4 +15,3 @@ def nod(number1, number2):
 	while number2 > 0:
 		number1, number2 = number2, number1 % number2
 	return number1
-
