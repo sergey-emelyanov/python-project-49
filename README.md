@@ -26,7 +26,7 @@ make package-install
 * For game prime number: `brain-prime`
 
 
-##Description
+## Description
 ___
 
 ### **Игра: "Проверка на чётность"**
