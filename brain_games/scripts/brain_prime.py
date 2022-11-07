@@ -4,8 +4,8 @@ from brain_games.launch import launch
 
 
 def main():
-	launch(prime_game)
+    launch(prime_game)
 
 
 if __name__ == "__main__":
-	main()
+    main()
