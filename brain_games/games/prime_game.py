@@ -1,9 +1,9 @@
 import random
 
-description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def data_about_round():
+def get_game():
     number = random.randint(1, 100)
     if is_prime(number):
         correct_answer = 'yes'

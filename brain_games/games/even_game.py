@@ -1,9 +1,9 @@
 import random
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def data_about_round():
+def get_game():
     number = random.randint(1, 100)
     if is_even(number):
         correct_answer = 'yes'

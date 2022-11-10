@@ -1,13 +1,14 @@
 import prompt
-from brain_games.cli import welcome_user
 
 
 def launch(game):
-    name = welcome_user()
-    print(game.description)
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    print(game.DESCRIPTION)
 
     for _ in range(3):
-        question, correct_answer = game.data_about_round()
+        question, correct_answer = game.get_game()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
 

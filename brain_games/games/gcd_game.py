@@ -1,9 +1,9 @@
 import random
 
-description = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def data_about_round():
+def get_game():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     question = f"{number1} {number2}"

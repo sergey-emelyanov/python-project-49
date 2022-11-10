@@ -1,9 +1,9 @@
 import random
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def data_about_round():
+def get_game():
     start = random.randint(1, 10)
     finish = start + 20
     step = random.randint(1, 3)
